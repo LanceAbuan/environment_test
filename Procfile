@@ -1,1 +1,1 @@
-release: rails db:migrate --force
+release: rails db:create db:migrate
